@@ -1,0 +1,7 @@
+# RDK-specific collectd Type definitions not covered by collectd's stock
+# /usr/share/collectd/types.db. Loaded alongside it via a second `TypesDB`
+# directive in collectd.conf. Format: <type> <ds-name>:<ds-type>:<min>:<max>.
+rdk_bridge_port_bytes      value:COUNTER:0:U
+rdk_bridge_port_enabled    value:GAUGE:0:1
+rdk_wifi_signal_level      value:GAUGE:U:U
+rdk_wifi_link_quality      value:GAUGE:0:U
