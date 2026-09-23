@@ -1,0 +1,1 @@
+# collectd-rbus-plugin
